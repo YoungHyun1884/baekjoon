@@ -15,7 +15,7 @@ int main(){
     cin >> a1 >> a0 ;
     cin >> c;
     cin >> n0;
-    if(f(n0,a1,a0) <= c * g(n0) && a1 <= c){
+    if(f(n0,a1,a0) <= c * g(n0) && a1 <= c){  //부등식 문제풀때 조건 잘 생각하기
         cout << "1";
     }
     else{
